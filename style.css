@@ -1,0 +1,541 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* background: rgb(255, 255, 255); */
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+  }
+  
+
+.logo img{
+    width: 30px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    /* z-index: 1000; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px;
+    border-bottom: 1px solid #f7f9fb;
+    transition: all .45s ease;
+    background: white;
+}
+
+.main-logo{
+    display: flex;
+    align-items: center;
+}
+
+.main-logo a{
+    display: contents;
+}
+
+.main-logo a h3{
+    color: black;
+}
+
+.main-logo a h3:hover{
+    color: #eb9412;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 25px;
+    margin: 0 5px;
+    color: black;
+    background: transparent;
+    border-radius: 30px;
+    transition: all .45s ease;
+}
+
+.navbar a:hover{
+    background: #e0e0e0;
+    color: #eb9412;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+.icons i{
+    height: 50px;
+    width: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: black;
+    font-size: 18px;
+    margin-right: 25px;
+    margin-left: 10px;
+    transition: all .45s ease;
+    background: transparent;
+}
+
+.icons i:hover{
+    transform: scale(0.9);
+    color: #eb9412;
+    background: #e0e0e0;
+}
+
+#menu-icon{
+    color: black;
+    font-size: 33px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.home-img{
+    height: 70%;
+    margin-right: 75px;
+}
+
+.home-img img{
+    width: 100%;
+    height: 80vh;
+}
+
+.home-text{
+    margin: 50px;
+}
+
+.home-text h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: #eb9412;
+}
+
+.home-text p{
+    color: black;
+    line-height: 1.5;
+    margin: 10px 0 45px;
+}
+
+.btn{
+    display: inline-flex;
+    padding: 12px 25px;
+    background: linear-gradient(to right, #ebd40d, #eb9412);
+    color: #000000;
+    font-size: 15px;
+    border-radius: 30px;
+    transition: all .45s ease;
+}
+
+.btn i{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    margin: 1px;
+    margin-left: 7px;
+}
+
+.btn:hover i{
+    transform: translateX(6px);
+}
+
+/*About*/
+
+
+.main-about{
+    margin: 200px 380px;
+    display: flex;
+}
+
+.about{
+    /* width: 60%; */
+    width: auto;
+    height: auto;
+    box-shadow: 0 0 15px #747371;
+    border-radius: 5px;
+    padding: 15px 15px;
+    display: grid;
+}
+
+.about .about-title h1{
+    color: #eb9412;
+    text-align: center;
+    margin: 5px;
+}
+
+.about-content p{
+    color: black;
+    margin: 5px;
+}
+
+
+/*Contact*/
+
+.contact-main{
+    margin: 120px 380px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact{
+    display: grid;
+    width: auto;
+    height: auto;
+    box-shadow: 0 0 15px #747371;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background:  linear-gradient(to right, #f1ecbc, #e7d0ad);
+}
+
+
+.contact-title{
+    text-align: center;
+}
+
+.contact .contact-title h1{
+    text-align: center;
+    margin: 5px;
+}
+
+.contact-content p{
+    margin-top: 5px;
+}
+
+
+.name{
+    border: 2px solid #f8ad0a;
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+    display: flex;
+}
+
+.contact-content .name i{
+    position: relative;
+    top: 9px;
+    left: 15px;
+    color: #f8ad0a;
+}
+
+.contact-content .name .username{
+    position: relative;
+    left: 9%;
+    width: 295px;
+    background: none;
+    outline: none;
+    border: none;
+    display: flex;
+    font-size: 15px;
+}
+
+.user-email{
+    border: 2px solid #f8ad0a;
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+    display: flex;
+}
+
+.contact-content .user-email i{
+    position: relative;
+    top: 9px;
+    left: 15px;
+    color: #f8ad0a;
+}
+
+.contact-content .user-email .email{
+    position: relative;
+    left: 9%;
+    width: 295px;
+    background: none;
+    outline: none;
+    border: none;
+    display: flex;
+    font-size: 15px;
+}
+
+.user-message{
+    width: 350px;
+    height: 30vh;
+    display: flex;
+}
+
+textarea{
+    width: 100%;
+}
+
+
+/*Footer*/
+
+
+footer{
+    background: #111;
+}
+
+.footer-container{
+    width: 100%;
+    padding: 35px 30px 30px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a{
+    text-decoration: none;
+    padding: 5px;
+    background: white;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+
+.social-icons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.social-icons a:hover{
+    background: #f3a806;
+    transition: 0.5s;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footernav ul li a{
+    color: #eb9412;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1,3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footernav ul li a:hover{
+    opacity: 1;
+}
+
+.footerbottom{
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerbottom p{
+    color: white;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0 5px;
+}
+
+
+/*-----------------BREAKPOINTS-------------------*/
+
+/*For Small Devices*/
+
+@media screen and (max-width: 320px) {
+
+    header{
+        margin-inline: 1rem;
+        position: relative;
+    }
+
+    .main-logo h3{
+        width: 120px;
+    }
+
+    .navbar{
+        overflow: hidden;
+        display: none;
+    }
+
+    #menu-icon{
+        display: flex;
+    }
+
+    .icons{
+        margin-left: 80px;
+    }
+
+    .home{
+        display: -webkit-box;
+        padding: 100px 40px;
+    }
+
+    .home-text{
+        display: block;
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 0;
+    }
+
+    .home-img img{
+        height: 120%;
+    }
+
+    .home-img{
+        width: 100%;
+        height: fit-content;
+        margin-right: 2px;
+        background-size: cover;
+    }
+
+    .main-about{
+        display: contents;
+    }
+
+    .about{
+        width: 100%;
+        margin-left: 24vh;
+    }
+
+    .contact-main{
+        display: contents;
+    }
+
+    .contact{
+        margin-top: 40vh;
+        margin-left: 18vh;
+        margin-bottom: 40vh;
+        width: 124%;
+    }
+
+    footer{
+        width: 183%;
+    }
+}
+
+/*For Medium Devices*/
+
+@media screen and (min-width: 321px) and (max-width: 780px) {
+
+    header{
+        margin-inline: 1rem;
+        position: fixed;
+    }
+
+    .main-logo{
+        margin-left: 20px;
+    }
+
+    .navbar{
+        overflow: hidden;
+        display: none;
+    }
+
+    #menu-icon{
+        display: flex;
+    }
+
+    .icons{
+        margin-left: 80px;
+    }
+
+    .home{
+        display: block;
+        padding: 100px 100px;
+        margin-inline: 12vh;
+        margin-bottom: 15vh;
+    }
+
+    .home-text{
+        display: block;
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 0;
+    }
+
+    .home-img img{
+        height: 120%;
+    }
+
+    .home-img{
+        width: 100%;
+        height: fit-content;
+        margin-right: 2px;
+        background-size: cover;
+    }
+
+    .main-about{
+        display: flex;
+        margin: 0px;
+        justify-content: center;
+    }
+
+    .about{
+        margin-left: 30vh;
+        margin-top: 30vh;
+        padding: 40px;
+    }
+
+    .contact-main{
+        display: flex;
+        margin: 0px;
+        justify-content: center;
+    }
+
+    .contact{
+        margin-top: 40vh;
+        margin-left: 20vh;
+        margin-bottom: 40vh;
+        width: 54%;
+    }
+
+    footer{
+        width: 110%;
+    }
+    
+}
+
+/*For Large Devices*/
+
+
+@media screen and (min-width: 781px) {
+    
+    header{
+        margin-inline: 1rem;
+        position: fixed;
+    }
+
+    .main-logo{
+        margin-left: 20px;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+}
