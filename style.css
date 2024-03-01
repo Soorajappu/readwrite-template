@@ -31,6 +31,7 @@ header{
     border-bottom: 1px solid #f7f9fb;
     transition: all .45s ease;
     background: white;
+    z-index: 1;
 }
 
 .main-logo{
@@ -107,15 +108,16 @@ header{
 .home{
     height: 100vh;
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2 ,1fr);
+    display: flex;
+    /* grid-template-columns: repeat(2 ,1fr); */
     align-items: center;
     gap: 1.5rem;
 }
 
 .home-img{
     height: 70%;
-    margin-right: 75px;
+    margin-right: 10px;
+    padding-left: 100px;
 }
 
 .home-img img{
@@ -165,18 +167,20 @@ header{
 
 
 .main-about{
-    margin: 200px 380px;
+    margin: 200px 76vh;
     display: flex;
+    width: 60vh;
+    justify-content: center;
 }
 
 .about{
     /* width: 60%; */
-    width: auto;
-    height: auto;
+    /* width: auto; */
+    /* height: auto; */
     box-shadow: 0 0 15px #747371;
     border-radius: 5px;
     padding: 15px 15px;
-    display: grid;
+    /* display: grid; */
 }
 
 .about .about-title h1{
@@ -389,48 +393,52 @@ footer{
     }
 
     .home{
-        display: -webkit-box;
-        padding: 100px 40px;
+        display: block;
+        width: 70vh;
+        margin-left: 10vh;
     }
 
     .home-text{
         display: block;
-        width: 100%;
-        margin-left: 5px;
-        margin-right: 5px;
-        margin-top: 0;
+        margin-left: 0px;
+        margin-right: 40px;
     }
 
-    .home-img img{
+    /* .home-img img{
         height: 120%;
-    }
+    } */
 
     .home-img{
-        width: 100%;
-        height: fit-content;
-        margin-right: 2px;
-        background-size: cover;
+        /* width: 100%; */
+        /* height: fit-content; */
+        margin-right: 60px;
+        /* background-size: cover; */
     }
 
     .main-about{
-        display: contents;
+        display: flex;
+        justify-content: center;
+        margin-left: 15vh;
+        width: 55vh;
     }
 
-    .about{
+    /* .about{
         width: 100%;
         margin-left: 24vh;
-    }
+    } */
 
     .contact-main{
-        display: contents;
+        display: flex;
+        justify-content: center;
+        margin-left: 42vh;
     }
 
-    .contact{
+    /* .contact{
         margin-top: 40vh;
         margin-left: 18vh;
         margin-bottom: 40vh;
         width: 124%;
-    }
+    } */
 
     footer{
         width: 183%;
@@ -464,10 +472,10 @@ footer{
     }
 
     .home{
-        display: block;
-        padding: 100px 100px;
-        margin-inline: 12vh;
-        margin-bottom: 15vh;
+        display: flex;
+        /* padding: 100px 100px; */
+        margin-left: 6vh;
+        /* margin-bottom: 15vh; */
     }
 
     .home-text{
@@ -483,7 +491,8 @@ footer{
     }
 
     .home-img{
-        width: 100%;
+        width: 170vh;
+        display: flex;
         height: fit-content;
         margin-right: 2px;
         background-size: cover;
@@ -491,28 +500,29 @@ footer{
 
     .main-about{
         display: flex;
-        margin: 0px;
+        margin: 22vh;
         justify-content: center;
+        width: 60vh;
     }
 
-    .about{
+    /* .about{
         margin-left: 30vh;
         margin-top: 30vh;
         padding: 40px;
-    }
+    } */
 
     .contact-main{
         display: flex;
-        margin: 0px;
+        /* margin: 0px; */
         justify-content: center;
     }
 
-    .contact{
+    /* .contact{
         margin-top: 40vh;
         margin-left: 20vh;
         margin-bottom: 40vh;
         width: 54%;
-    }
+    } */
 
     footer{
         width: 110%;
