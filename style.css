@@ -368,11 +368,12 @@ footer{
 
 /*For Small Devices*/
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
 
     header{
         margin-inline: 1rem;
         position: relative;
+        width: 95vh;
     }
 
     .main-logo h3{
@@ -389,13 +390,14 @@ footer{
     }
 
     .icons{
-        margin-left: 200px;
+        margin-left: 12vh;
     }
 
     .home{
         display: block;
         width: 70vh;
         margin-left: 22vh;
+        margin-bottom: 65vh;
     }
 
     .home-text{
@@ -405,30 +407,31 @@ footer{
     }
 
     .home-img{
-        margin-right: 60px;
+        margin-right: 0px;
+        padding-left: 0;
     }
 
     .main-about{
         display: flex;
         justify-content: center;
-        margin-left: 30vh;
-        width: 55vh;
+        margin-left: 18vh;
+        width: 65vh;
     }
 
     .contact-main{
         display: flex;
         justify-content: center;
-        margin-left: 56vh;
+        margin-left: 52vh;
     }
 
     footer{
-        width: 183%;
+        width: 100vh;
     }
 }
 
 /*For Medium Devices*/
 
-@media screen and (min-width: 401px) and (max-width: 780px) {
+@media screen and (min-width: 321px) and (max-width: 900px) {
 
     header{
         margin-inline: 1rem;
@@ -479,9 +482,10 @@ footer{
 
     .main-about{
         display: flex;
-        margin: 22vh;
+        margin: 22vh 46vh;
         justify-content: center;
-        width: 60vh;
+        width: 70vh;
+        margin-left: 46vh;
     }
 
     .contact-main{
@@ -491,7 +495,7 @@ footer{
 
     
     footer{
-        width: 110%;
+        width: 168vh;
     }
     
 }
@@ -499,7 +503,7 @@ footer{
 /*For Large Devices*/
 
 
-@media screen and (min-width: 781px) {
+@media screen and (min-width: 901px) {
     
     header{
         margin-inline: 1rem;
