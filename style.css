@@ -368,7 +368,7 @@ footer{
 
 /*For Small Devices*/
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 400px) {
 
     header{
         margin-inline: 1rem;
@@ -389,13 +389,13 @@ footer{
     }
 
     .icons{
-        margin-left: 80px;
+        margin-left: 200px;
     }
 
     .home{
         display: block;
         width: 70vh;
-        margin-left: 10vh;
+        margin-left: 22vh;
     }
 
     .home-text{
@@ -404,41 +404,22 @@ footer{
         margin-right: 40px;
     }
 
-    /* .home-img img{
-        height: 120%;
-    } */
-
     .home-img{
-        /* width: 100%; */
-        /* height: fit-content; */
         margin-right: 60px;
-        /* background-size: cover; */
     }
 
     .main-about{
         display: flex;
         justify-content: center;
-        margin-left: 15vh;
+        margin-left: 30vh;
         width: 55vh;
     }
-
-    /* .about{
-        width: 100%;
-        margin-left: 24vh;
-    } */
 
     .contact-main{
         display: flex;
         justify-content: center;
-        margin-left: 42vh;
+        margin-left: 56vh;
     }
-
-    /* .contact{
-        margin-top: 40vh;
-        margin-left: 18vh;
-        margin-bottom: 40vh;
-        width: 124%;
-    } */
 
     footer{
         width: 183%;
@@ -447,7 +428,7 @@ footer{
 
 /*For Medium Devices*/
 
-@media screen and (min-width: 341px) and (max-width: 780px) {
+@media screen and (min-width: 401px) and (max-width: 780px) {
 
     header{
         margin-inline: 1rem;
@@ -473,9 +454,7 @@ footer{
 
     .home{
         display: flex;
-        /* padding: 100px 100px; */
         margin-left: 6vh;
-        /* margin-bottom: 15vh; */
     }
 
     .home-text{
@@ -505,25 +484,12 @@ footer{
         width: 60vh;
     }
 
-    /* .about{
-        margin-left: 30vh;
-        margin-top: 30vh;
-        padding: 40px;
-    } */
-
     .contact-main{
         display: flex;
-        /* margin: 0px; */
         justify-content: center;
     }
 
-    /* .contact{
-        margin-top: 40vh;
-        margin-left: 20vh;
-        margin-bottom: 40vh;
-        width: 54%;
-    } */
-
+    
     footer{
         width: 110%;
     }
