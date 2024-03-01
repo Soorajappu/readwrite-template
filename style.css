@@ -368,7 +368,7 @@ footer{
 
 /*For Small Devices*/
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
 
     header{
         margin-inline: 1rem;
@@ -447,7 +447,7 @@ footer{
 
 /*For Medium Devices*/
 
-@media screen and (min-width: 321px) and (max-width: 780px) {
+@media screen and (min-width: 341px) and (max-width: 780px) {
 
     header{
         margin-inline: 1rem;
